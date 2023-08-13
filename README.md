@@ -5,7 +5,7 @@ This script converts the content of a txt file into speech and saves it as an mp
 ## Prerequisites
 
 - Python 3.x
-- Pip (Python Package Installer)
+- pip (Python Package Installer)
 
 ## Installation
 
@@ -16,19 +16,14 @@ This script converts the content of a txt file into speech and saves it as an mp
 ```bash
 pip install -r requirements.txt
 ```
-
 ## Usage
-Modify the input_file and output_file variables in the script to point to your input text file and desired output mp3 location respectively.
 
-```python
-input_file = 'path_to_your_text_file.txt'
-output_file = 'path_for_output_mp3.mp3'
-Run the script:
-```
+1. Run the script:
 
 ```bash
 python text_to_speech.py
 ```
+2. You'll be prompted to enter the path to your txt file. After providing a valid path, the script will convert the content to speech and save it as an mp3 file in the same directory with the same name as the provided txt file.
 
 Once completed, you'll find the generated mp3 file in the specified output location.
 
