@@ -79,6 +79,7 @@ yarn.lock
 
 # Recording files
 *.wav
+*.mp3
 
 # Transcription files
 *.txt
